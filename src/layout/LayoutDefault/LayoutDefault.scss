@@ -1,0 +1,14 @@
+.layout-default {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        background: #f0ca42;
+    }
+    &__footer {
+        background: #f0ca42;
+        text-align: center;
+        padding: 20px 0;
+    }
+}
