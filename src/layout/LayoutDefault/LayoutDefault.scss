@@ -5,10 +5,40 @@
         align-items: center;
         padding: 20px 50px;
         background: #f0ca42;
+        div:nth-child(1) {
+            height: 100%;
+            a {
+                color: #555;
+                font-size: 2rem;
+                font-weight: bold;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+            a:hover {
+                background-color: #f96161;
+            }
+        }
+        div:nth-child(2) {
+            height: 100%;
+            a {
+                color: #555;
+                font-size: 2rem;
+                font-weight: bold;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+            a:hover {
+                background-color: #f96161;
+            }
+        }
+    }
+    &__main {
+        margin: 50px auto 100px auto;
     }
     &__footer {
         background: #f0ca42;
         text-align: center;
         padding: 20px 0;
+        margin-top: 50px;
     }
 }

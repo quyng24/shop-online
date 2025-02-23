@@ -11,7 +11,7 @@ function Product() {
     }, []);
     return (
         <>
-            <div className="product">
+            <div className="product container">
                 {products.map(item => (
                     <ProductItem item={item} key={item.id} />
                 ))}
